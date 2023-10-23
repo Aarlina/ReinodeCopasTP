@@ -1,0 +1,117 @@
+header,
+footer {
+    background-color: white ;
+    color:white
+   
+}
+
+footer {
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(38, 7, 177, 0.514);
+    background-color:black;
+    
+}
+
+nav {
+    text-align:center;
+    background-color: white;
+}
+
+
+#contenedor {
+    background-color:rgb(209, 193, 169);
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+
+#imagencard {
+    width: 250px;
+    padding: 5px;
+    border: 1px solid rgb(109, 14, 80);
+
+    border-radius: 5px;
+    margin-top: 10px;
+
+}
+
+#imagencard:hover {
+    animation: pulse;
+    animation-duration: 2s;
+
+}
+
+/*img {
+    opacity: 0.5;
+  }
+  
+  img:hover {
+    opacity: 1.0;
+  }*/
+.imagencard {
+    width: 120%;
+}
+
+nav a {
+    /* a la etiqueta nav que tiene como descendoiente una eituqta a*/
+    padding: 10px;
+    background-color:white;
+    text-decoration: none;
+    border: 1px solid white;
+    margin: 5px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+nav a:link {
+    color:white;
+}
+
+/* color rojo a todos los link*/
+nav a:hover {
+    background-color: rgba(41, 201, 212, 0.932);
+    /*transform: skew(20deg)*/
+    animation: pulse;
+    animation-duration: 2s;
+
+}
+
+nav a:visited {
+    color: rgb(7, 7, 7);
+}
+
+nav a:active {
+    background-color: rgb(23, 173, 23);
+    color:white;
+}
+
+p::selection {
+    background-color: rgba(29, 187, 82, 0.822);
+}
+
+h2 {
+    color: black;
+    text-align: center;
+  
+
+}
+
+p {
+    text-align: center;
+    color: aliceblue;
+    
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(3, 3, 3);
+
+}
+
+
+
+
+
+
+

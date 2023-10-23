@@ -1,0 +1,70 @@
+header,
+footer {
+    background-color: white;
+    color: white;
+   
+}
+
+footer {
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(38, 7, 177, 0.514);
+    background-color: black;
+}
+
+nav {
+    text-align: center;
+    background-color: white;
+}
+
+#contenedor {
+    background-color: rgb(5, 5, 5);
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+
+
+nav a {
+    /* a la etiqueta nav que tiene como descendoiente una eituqta a*/
+    padding: 10px;
+    background-color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    margin: 5px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+nav a:link {
+    color:white;
+}
+
+/* color rojo a todos los link*/
+nav a:hover {
+    background-color:rgba(41, 201, 212, 0.932);
+    /*transform: skew(20deg)*/
+    animation: pulse;
+    animation-duration: 2s;
+
+}
+
+nav a:visited {
+    color: rgb(7, 7, 7);
+}
+
+nav a:active {
+    background-color: green;
+    color: white;
+}
+
+
+
+
+
+
+h1 {
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(3, 3, 3);
+
+}
